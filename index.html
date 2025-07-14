@@ -9,34 +9,62 @@
     <!-- redes sociales -->
     <script src="https://kit.fontawesome.com/0db90e8830.js" crossorigin="anonymous"></script>
     <!-- estilos -->
-    <link rel="stylesheet" href="estilos/style.css">
-    <title>Lou ecommerce </title>
+    <link rel="stylesheet" href="./estilos/index/style.css">
+    <title> Lou ecommerce 2 </title>
+    <!-- favicon -->
+    <link rel="icon" type="img/x-icon" href="img/logos-otros/2silueta-mate.png">
 </head>
 <body>
+    
     
     <header class="header">
         <div class="logo">
             <img src="img/logos-otros/2a silueta-mate.png" alt="Logo de la marca">
             <h3>LNBB</h3>
-         
+
         </div>
+    
+         
         <nav>
            <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <!-- <li><a href="./pages/tienda.html">Tienda</a></li> -->
+                
                 <li><a href="#">Servicios</a></li>
-                <li><a href="pages/multimedia.html" >Nosotros</a></li>
+            
+                <li><a href="./pages/contacto.html" >Contacto</a></li>
                 <li>
-                    <a href="pages/carrito.html">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    <a href="./pages/carrito.html">
+                        <!-- <i class="fa fa-shopping-bag" aria-hidden="true"></i> -->
+                        <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                 </li>
-           </ul>            
-        </nav>
-        <a class="btn" href="#contacto"><button>Contacto</button></a>
-    </header>
+                      <!-- close button -->
+                  <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                  </a>
+                
+             </ul>
+                
+
+            <!-- version responsive -->
+            <div class="mobile">
+                
+                <a href="cart.html">
+                 <!-- <i class="fa fa-shopping-bag" aria-hidden="true"></i> -->
+                 <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <i id="bar" class="fas fa-outdent "></i>
+            </div>
+              
+        </nav>  
+
+    </header>             
+                
     <main>
-          <!-- Hero----------------------- -->
+           
+        <!-- Hero----------------------- -->
+        
         <section class="hero">
             <div class="hero-content">
                 <h2>Visita nuestros productos</h2>
@@ -45,158 +73,76 @@
                 <button>Ver más</button>
             </div>
         </section>
-        <!-- productos -->
-        <div id="productos"></div>
+        
         <section class="section-productos section-p1">
             <h2>Nuestros productos</h2>
             <p>Ofertas que no te podés perder</p>
-            <div class="productos-container">
-                <div class="producto">
-                    <img src="img/productos/1eq m.png" alt="producto 1">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/2m al.png" alt="producto 2">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/3m imp.png" alt="producto 3">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/4m t.png" alt="producto 4">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/5m vaq.png" alt="producto 5">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/6m.png" alt="producto 6">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/9eq arg.jpg" alt="producto 7">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-                <div class="producto">
-                    <img src="img/productos/8m alp.png" alt="producto 8">
-                    <div class="producto-descripcion">
-                        <span>Lorem</span>
-                        <h5>Lorem ipsum dolor sit amet.</h5>
-                        <h4>$78</h4>
-                    </div>
-                    <a href="#" class="carrito">
-                        <i class="fal fa-shopping-cart"></i>
-                    </a>
-                </div>
-            </div>
+            <div class="productos-container"></div>
+                
         </section> 
-        <!-- contacto ------------------------------------>
-        <section class="contacto" id="contacto">
-            <h4 class="title">Contáctenos</h4>
-            <p>seccion en construccion</p>
-            
-            <form action="https://formspree.io/mi-cuenta" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required>
-                </textarea>
-                <button type="submit">Enviar</button>
-            </form>
-    
-            <div><h4>Estamos aqui</h4></div>
-                <div class="ubicacion">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26301.308207525693!2d-58.506530461496965!3d-34.511413591852275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb147d4018937%3A0xfa30a67c6ada18f7!2sB1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1748662821959!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-            </div>
-        </section>  
-    </main>
- 
-    <!-- Footer------------------- -->
-    <footer class="pie-pagina">
-       
-         <div class="logo">
-            <img src="img/logos-otros/2a silueta-mate.png" alt="Logo de la marca">
-            <h3>LNBB</h3>
-         </div>
-            <ul class="enlaces">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Nosotros</a></li>
-            </ul>
-          
-            
-            <div class="redes">
-                <h4>Redes</h4>
-              <div><i class="fa-brands fa-whatsapp"></i>
-                
-                 <i class="fa-brands fa-instagram"></i>
-                 <i class="fa-brands fa-facebook-f"></i>
-              </div>
-               
-                
-            </div>
-             
-           <p> &#169 2025 Derechos reservados - Lourdes Borria </p>
-            <p>@ Comision 2025 Talent Tech</p>          
-                
-    </footer>
-
-    
+        <!-- ubicacion----------------------------------->
         
-    
+        <!-- <div class="ubicacion"><h4>Estamos aqui</h4></div>
+        <div class="ubicacion">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26301.308207525693!2d-58.506530461496965!3d-34.511413591852275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb147d4018937%3A0xfa30a67c6ada18f7!2sB1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1748662821959!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+       </div> -->
+   </main>
+    <!-- NEWSLETTER -->
+    <section class="newsletter section-p1 section-m1">
+        <div class="newstext">
+            <h4>Suscribite al Newsletter</h4>
+            <p>Recibí novedades de nuestra tienda y <span>ofertas exclusivas</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Tu correo electrónico">
+            <button>Suscribirme</button>
+        </div>
+    </section>
+           
+   <!-- Footer------------------- -->
+            
+   <footer class="pie-pagina">
+      
+        <div class="logo">
+           <!-- <img src="img/logos-otros/2a silueta-mate.png" alt="Logo de la marca"> -->
+           <a href="../index.html">
+               <img src="../img/logos-otros/2a silueta-mate.png" class="logo" alt="Logo de la marca" width="40px" height="40px">
+           </a>
+           <h3>LNBB</h3>
+        </div>
+           <ul class="enlaces">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Tienda</a></li>
+               <li><a href="#">Servicios</a></li>
+               <li><a href="#">Contacto</a></li>
+           </ul>
+         
+           
+           <div class="redes">
+               <h4>Redes</h4>
+             <div>
+                <a href="https:WhatsApp.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i></a>
+
+                <a href="https:Instaram.com/"target="_blank" rel="noopener noreferrer">
+                 <i class="fa-brands fa-instagram"></i></a>
+
+                 <a href="https:facebook.com/" target="_blank" rel="noopener noreferrer">
+                 <i class="fa-brands fa-facebook-f"></i></a>
+             </div>
+              
+               
+           </div>
+            
+          <p> &#169 2025 Derechos reservados - Lourdes Borria </p>
+           <p>@ Comision 2025 Talent Tech</p>          
+               
+   </footer>
+         
+ 
+
+    <!-- script-------------- -->
+  <script src="script/script.js"></script>
+  
 </body>
 </html>

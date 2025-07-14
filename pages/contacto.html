@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <!-- redes sociales -->
+    <script src="https://kit.fontawesome.com/0db90e8830.js" crossorigin="anonymous"></script>
+    <!-- estilos -->
+    <link rel="stylesheet" href="../estilos/index/style.css">
+    <link rel="stylesheet" href="../estilos/contacto/contacto.css">
+
+</head>
+
+<body>
+   
+
+    <header class="header">
+        <div class="logo">
+            <!-- <img src="img/logos-otros/2a silueta-mate.png" alt="Logo de la marca"> -->
+            <a href="../index.html">
+                <img src="../img/logos-otros/2a silueta-mate.png" class="logo" alt="Logo Cara" width="40px" height="40px">
+            </a>
+            <h3>LNBB</h3>
+         
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <!-- <li><a href="tienda.html">Tienda</a></li> -->
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a href="./carrito.html">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                    </a>
+                </li>
+
+                  <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                  </a>
+           </ul>            
+        </nav>
+        <!-- version responsive -->
+          <div class="mobile">
+              <a href="./carrito.html">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+              </a>
+              <i id="bar" class="fas fa-outdent "></i>
+          </div>
+        
+    </header>
+    <main>
+        <!-- FORMULARIO -->
+        <section class="form-details">
+            <form action="" id="formularioContacto">
+                <span>DEJA UN MENSAJE</span>
+                <h2>Queremos saber de ti</h2>
+                <div class="campo-control">
+                    <input type="text" id="tuNombre" placeholder="Tu Nombre">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <input type="text" id="tuCorreo" placeholder="Correo electrónico">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <input type="text" id="asunto" placeholder="Asunto">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <textarea name="" id="tuMensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    <div class="texto-error"></div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <!-- PERSONAS -->
+            <div class="people">
+                <div>
+                    <img src="../img/people/1.png" alt="">
+                    <p><span>Martín Gómez</span> Gerente Senior de Marketing <br> Teléfono: (011) 4567-8901 <br> Correo
+                        electrónico: contact.martin@example.com</p>
+                </div>
+                <div>
+                    <img src="../img/people/3.png" alt="">
+                    <p><span>Sofía Rodríguez</span> Gerente Senior de Marketing <br> Teléfono: (011) 5678-9012 <br>
+                        Correo electrónico: contact.sofia@example.com</p>
+                </div>
+                <div>
+                    <img src="../img/people/2.png" alt="">
+                    <p><span>Diego Pérez</span> Gerente Senior de Marketing <br> Teléfono: (011) 6789-0123 <br> Correo
+                        electrónico: contact.diego@example.com</p>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTER -->
+        <section class="newsletter section-p1 section-m1">
+            <div class="newstext">
+                <h4>Suscribite al Newsletter</h4>
+                <p>Recibí novedades de nuestra tienda y <span>ofertas exclusivas</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Tu correo electrónico">
+                <button>Suscribirme</button>
+            </div>
+        </section>
+    </main>
+
+   
+    <footer class="pie-pagina">
+       
+        <div class="logo">
+           <!-- <img src="img/logos-otros/2a silueta-mate.png" alt="Logo de la marca"> -->
+           <a href="../index.html">
+            <img src="../img/logos-otros/2a silueta-mate.png" class="logo" alt="Logo Cara" width="40px" height="40px">
+        </a>
+           <h3>LNBB</h3>
+        </div>
+           <ul class="enlaces">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Tienda</a></li>
+               <li><a href="#">Servicios</a></li>
+               <li><a href="#">Contacto</a></li>
+           </ul>
+         
+           
+           <div class="redes">
+               <h4>Redes</h4>
+             <div>
+                <a href="https:WhatsApp.com/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i></a>
+
+                <a href="https:Instaram.com/"target="_blank" rel="noopener noreferrer">
+                 <i class="fa-brands fa-instagram"></i></a>
+
+                 <a href="https:facebook.com/" target="_blank" rel="noopener noreferrer">
+                 <i class="fa-brands fa-facebook-f"></i></a>
+             </div>
+              
+               
+           </div>
+            
+          <p> &#169 2025 Derechos reservados - Lourdes Borria </p>
+           <p>@ Comision 2025 Talent Tech</p>          
+               
+   </footer>
+
+
+    <script src="../script/script.js"></script>
+    <script src="../script/contacto.js"></script>
+</body>
+
+</html>

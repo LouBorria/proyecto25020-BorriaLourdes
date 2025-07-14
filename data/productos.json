@@ -1,0 +1,92 @@
+[
+    { "id":1,
+        "nombre":"Producto 1",
+        "descripcion":"Descripción 1",
+        "precio":100,
+        "imagen":"../img/productos/4m t.png" 
+    },
+    { "id":2,
+        "nombre":"Producto 2",
+        "descripcion":"Descripción 2",
+        "precio":150,
+        "imagen":"../img/productos/10m alp.png" 
+    },
+    { "id":3,
+        "nombre":"Producto 3",
+        "descripcion":"Descripción 3",
+        "precio":120,
+        "imagen":"../img/productos/1eq m.png" 
+    },
+    { "id":4,
+        "nombre":"Producto 4",
+        "descripcion":"Descripción 4",
+        "precio":130,
+        "imagen":"../img/productos/3m imp.png" 
+    },
+    { "id":5,
+        "nombre":"Producto 5",
+        "descripcion":"Descripción 5",
+        "precio":120,
+        "imagen":"../img/productos/5m vaq.png" 
+    },
+    { "id":6,
+        "nombre":"Producto 6",
+        "descripcion":"Descripción 6",
+        "precio":110,
+        "imagen":"../img/productos/6m.png" 
+    },
+    { "id":7,
+        "nombre":"Producto 7",
+        "descripcion":"Descripción 7",
+        "precio":50,
+        "imagen":"../img/productos/7p.png" 
+    },
+    { "id":8,
+        "nombre":"Producto 8",
+        "descripcion":"Descripción 8",
+        "precio":140,
+        "imagen":"../img/productos/8m alp.png" 
+    },
+    { "id":9,
+        "nombre":"Producto 9",
+        "descripcion":"Descripción 9",
+        "precio":100,
+        "imagen":"../img/productos/9eq arg.jpg" 
+    },
+    { "id":10,
+        "nombre":"Producto 10",
+        "descripcion":"Descripción 11",
+        "precio":90,
+        "imagen":"../img/productos/1eq m.png" 
+    },
+    { "id":11,
+        "nombre":"Producto 12",
+        "descripcion":"Descripción 12",
+        "precio":80,
+        "imagen":"../img/productos/5m vaq.png" 
+    },
+    { "id":12,
+        "nombre":"Producto 13",
+        "descripcion":"Descripción 13",
+        "precio":200,
+        "imagen":"../img/productos/6m.png"
+    },
+    { "id":13,
+        "nombre":"Producto 14",
+        "descripcion":"Descripción 14",
+        "precio":100,
+        "imagen":"../img/productos/7p.png" 
+    },
+    { "id":14,
+        "nombre":"Producto 14",
+        "descripcion":"Descripción 14",
+        "precio":140,
+        "imagen":"../img/productos/8m alp.png" 
+    },
+    { "id":15,
+        "nombre":"Producto 15",
+        "descripcion":"Descripción 15",
+        "precio":170,
+        "imagen":"../img/productos/9eq arg.jpg"
+    }
+    ]

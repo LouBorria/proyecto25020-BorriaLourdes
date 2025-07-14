@@ -1,14 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
+    <title>Carrito de Compras</title>
+    <!-- fontowesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <!-- redes sociales -->
+    <script src="https://kit.fontawesome.com/0db90e8830.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos/index/style.css">
+    <link rel="stylesheet" href="../estilos/carrito/carrito.css">
 </head>
+
 <body>
-    <h2>En construcion</h2>
-    <h5><a href="../index.html">volver a inicio</a></h5>
-    
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/logos-otros/2a silueta-mate.png" class="logo" alt="Logo de la marca" width="40px" height="40px">
+            </a>
+            <!-- <img src="img/logos-otros/2a silueta-mate.png" alt="Logo de la marca"> -->
+            <h3>LNBB</h3>
+         
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <!-- <li><a href="tienda.html">Tienda</a></li> -->
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#" >Contacto</a></li>
+                <li>
+                    <a href="./carrito.html">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <!-- close button -->
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>            
+
+        </nav>
+         <!-- version responsive -->
+         <div class="mobile">
+            <a href="cart.html">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent "></i>
+        </div>
+       
+    </header>
+
+        
+
+    <!-- MAIN -->
+    <main>
+        <!-- tabla para estructurar productos en carrito de compras-->
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>ELIMINAR</td>
+                        <td>IMAGEN</td>
+                        <td>PRODUCTO</td>
+                        <td>PRECIO</td>
+                        <td>CANTIDAD</td>
+                        <td>SUBTOTAL</td>
+                    </tr>
+                </thead>
+                <tbody id="tabla_carrito">
+                    <tr>
+                        <td><button class="remove-btn"><i class="far fa-times-circle"></i></button></td>
+                        <td><img src="../img/productos/6m.png" alt="Mate Emperado"></td>
+                        <td>Mate Emperador</td>
+                        <td>$118.19</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$118.19</td>
+                    </tr>
+                    <tr>
+                        <td><button class="remove-btn"><i class="far fa-times-circle"></i></button></td>
+                        <td><img src="../img/productos/9eq arg.jpg" alt="Equipo matero"></td>
+                        <td>Equipo matero</td>
+                        <td>$118.19</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$118.19</td>
+                    </tr>
+                    <tr>
+                        <td><button class="remove-btn"><i class="far fa-times-circle"></i></button></td>
+                        <td><img src="../img/productos/4m t.png" alt="Mate T"></td>
+                        <td>Equipo matero 2</td>
+                        <td>$118.19</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$118.19</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- aplicar cupon / total del carrito -->
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Aplicar Cupón</h3>
+                <div>
+                    <input type="text" placeholder="Ingresa tu cupón">
+                    <button class="normal">Aplicar</button>
+                </div>
+            </div>
+
+            <div id="subtotal">
+                <h3>Total del Carrito</h3>
+                <table>
+                    <tr>
+                        <td>Subtotal del Carrito</td>
+                        <td id="total">$335</td>
+                    </tr>
+                    <tr>
+                        <td>Envío</td>
+                        <td>Gratis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong id="total">$335</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceder al pago</button>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="pie-pagina">
+       
+        <div class="logo">
+           <a href="../index.html">
+            <img src="../img/logos-otros/2a silueta-mate.png" class="logo" alt="Logo Cara" width="40px" height="40px">
+        </a>
+           <h3>LNBB</h3>
+        </div>
+           <ul class="enlaces">
+               <li><a href="#">Home</a></li>
+               <!-- <li><a href="#">Tienda</a></li> -->
+               <li><a href="#">Servicios</a></li>
+               <li><a href="#">contacto</a></li>
+           </ul>
+         
+           
+           <div class="redes">
+               <h4>Redes</h4>
+             <div>
+                <a href="https:WhatsApp.com/" target="_blank"  rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i></a>
+
+                <a href="https:Instaram.com/"target="_blank"         rel="noopener noreferrer">
+                 <i class="fa-brands fa-instagram"></i></a>
+
+                 <a href="https:facebook.com/" target="_blank" rel="noopener noreferrer">
+                 <i class="fa-brands fa-facebook-f"></i></a>
+             </div>
+              
+               
+           </div>
+            
+          <p> &#169 2025 Derechos reservados - Lourdes Borria </p>
+           <p>@ Comision 2025 Talent Tech</p>          
+               
+   </footer>
+
+    <script src="../script/script.js"></script>
+    <script src="../script/carrito.js"></script>
 </body>
+
 </html>
